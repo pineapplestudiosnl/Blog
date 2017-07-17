@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  color: white;
+}
+
+.portfolio {
+  background: url('/backgrounds/mountains.jpg');
+  background-size: cover;
+  background-position: center;
+  font-size: 55px;
+  font-weight: 100;
+  font-family: 'Raleway';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.blog {
+  background: url('/backgrounds/ocean.jpg');
+  background-size: cover;
+  background-position: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'Raleway';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a {
+  color: white !important;
+}

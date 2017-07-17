@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  color: white;
+}
+
+.portfolio {
+  background-color: yellow;
+}
